@@ -1,25 +1,20 @@
 {
   "name": "assignment10",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Task Management API for Assignment 10",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "setup": "node database/setup.js",
-    "seed": "node database/seed.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node database/seed.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
   }
 }
